@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  text-transform: uppercase;
+
+}
+
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.info{
+  padding: 10px;
+}
+.list{
+  box-shadow: line;
+  
+  padding: 10px;
+}
+.input{
+  
+  height: 40px;
+  border-radius: 20px;
+}
